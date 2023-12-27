@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hedar{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    opacity: 80%;
+}
+nav{
+    display: flex;
+    padding: 3% 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h3{
+    color: white;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+.logo{
+    background: #e5dddd;
+    width: 100px;
+    height: 60px;    
+}
+.nav-menu{
+    flex: 1;
+    text-align: right;
+
+}
+
+.nav-menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 12px;
+    position: relative;
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+
+.imag1{
+    width: 20%;
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    transform: translate(35%, 32%)
+}
+.titel{
+    width: 50%;
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 1%;
+    transform: translate(20%, 20%)
+
+}
+.ptag1{
+    margin-top: 2%;
+    font-size: 28px;
+}
+.htag1{
+    font-size: 45px;
+}
